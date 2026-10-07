@@ -19,6 +19,8 @@ shot() {
   adb shell am start -W -n "$PKG/.MainActivity"
   sleep 6
   adb exec-out screencap -p > "shots/$1.png"
+  # screencap writes nothing when a FLAG_SECURE window is showing
+  [ -s "shots/$1.png" ] || { echo "::error::screenshot $1 is empty (screenshot blocking still on?)"; exit 1; }
   adb shell am force-stop "$PKG"
 }
 
