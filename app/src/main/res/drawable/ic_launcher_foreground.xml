@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A shield with a keyhole, inside the adaptive icon's 66 dp safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M54,26 L78,35 L78,53 C78,67 67.5,77.5 54,82 C40.5,77.5 30,67 30,53 L30,35 Z" />
+    <path
+        android:fillColor="#FF1A5FB4"
+        android:pathData="M48,50 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 Z M51.5,54 L56.5,54 L58.5,66 L49.5,66 Z" />
+</vector>

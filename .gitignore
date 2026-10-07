@@ -1,0 +1,13 @@
+*.iml
+.gradle/
+local.properties
+.idea/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+# the release signing key lives in the SIGNING_KEYSTORE_B64 Actions secret, never in git
+*.p12
+*.jks
+*.keystore
